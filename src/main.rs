@@ -42,7 +42,7 @@ async fn main() -> Result<(), OpenAIError> {
     let response = client.chat().create(request).await?;
 
     for choice in response.choices {
-        println!("{}", choice.message.content)
+        termimad::print_text(&choice.message.content);
     }
 
     Ok(())

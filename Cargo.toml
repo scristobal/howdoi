@@ -9,6 +9,7 @@ edition = "2021"
 anyhow = "1.0.69"
 async-openai = "0.9.2"
 clap = { version = "4.1.11", features = ["derive"] }
+termimad = "0.23.0"
 tokio ={ version = "1.26.0", features = ["rt-multi-thread", "macros"]}
 tracing = "0.1.37"
 tracing-subscriber = "0.3.16"
