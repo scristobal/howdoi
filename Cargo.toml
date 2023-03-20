@@ -1,0 +1,14 @@
+[package]
+name = "howdoi"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.69"
+async-openai = "0.9.2"
+clap = { version = "4.1.11", features = ["derive"] }
+tokio ={ version = "1.26.0", features = ["rt-multi-thread", "macros"]}
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
