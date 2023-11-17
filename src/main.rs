@@ -11,7 +11,7 @@ struct Cli {
 }
 
 static SYSTEM_MESSAGE : &str = "You are a linux command line assistant. The user will provide a description of the task he wants to perform on the terminal and your goal is to provide a command or commands with detailed explanation";
-static MODEL: &str = "gpt-4";
+static MODEL: &str = "gpt-4-1106-preview";
 
 #[tokio::main]
 async fn main() -> Result<(), OpenAIError> {
